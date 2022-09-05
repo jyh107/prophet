@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  conda-jupyter-prophet:
+    image: rogeryoungh/conda-jupyter-prophet
+    volumes:
+      - ./notebooks:/notebooks
+    ports:
+      - "8888:8888"
